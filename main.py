@@ -1,16 +1,14 @@
-# This is a sample Python script.
+# Space Invaders
+# Set up screenn
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+import turtle
+
+# Set up the Screen
+wn = turtle.screen()
+wn.bgcolor("black")
+wn.title("Space Invaders")
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+border_pen = turtle.Turtle()
+border_pen.speed(0)
+border_pen.color("white")
