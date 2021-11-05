@@ -56,9 +56,6 @@ turtle.onkey(move_left, "Left")
 turtle.onkey(move_left, "Right")
 
 
-
-
-
-delay = raw_input("Press Enter to Finish.")
+delay = input("Press Enter to Finish.")
 
 
